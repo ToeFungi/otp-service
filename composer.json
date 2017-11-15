@@ -1,0 +1,23 @@
+{
+    "name": "toefungi/fungi-otp-service",
+    "description": "OTP Service",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alex",
+            "email": "pickeringacw@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+      "psr-4": {
+        "ToeFungi\\OTP\\": "src/"
+      }
+    },
+    "require": {
+        "php": ">=5.4",
+        "illuminate/support": ">=5.0",
+        "predis/predis": "^1.1"
+    }
+}
